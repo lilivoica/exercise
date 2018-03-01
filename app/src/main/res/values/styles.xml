@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="WhiteText" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+    <style name="BlueText" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="editText" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_weight">1</item>
+
+
+    </style>
+
+
+
+</resources>
