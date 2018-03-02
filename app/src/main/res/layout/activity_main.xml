@@ -22,13 +22,14 @@
 
             <TextView
                 style="@style/BlueText"
-                android:text="General" />
+                android:text="General"
+                android:padding="10dp"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:layout_marginRight="10dp"
                 android:background="@android:color/darker_gray" />
-
 
         </LinearLayout>
 
@@ -59,13 +60,13 @@
 
             <TextView
                 style="@style/WhiteText"
-                android:text="Contact" />
+                android:text="Password" />
 
 
             <EditText
                 style="@style/editText"
                 android:ems="10"
-                android:inputType="textPersonName"
+                android:inputType="textPassword"
                 android:text="Name" />
 
         </LinearLayout>
