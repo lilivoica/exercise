@@ -159,6 +159,7 @@
                 android:background="@android:color/darker_gray" />
 
         </LinearLayout>
+        <!-- Lili, what did you intend to do here? -->
 
     </LinearLayout>
 
